@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+  
+  }
+      
+  .comp {
+        box-sizing: border-box;
+        height: 85vh;
+        width: 90vh;
+        margin: 50px auto;
+        border-radius: 5px;
+        padding: 20px;
+        background-color: rgba(135, 224, 34, 0.582);
+        border: 2px solid black;
+      }
+  
+  .comp h1 {
+        font-size: 30px;
+        text-align: center;
+        color: rgb(75, 12, 247);
+        margin-top: 20px;
+      }
+  
+  
+  label {
+    color: #080606cc;
+    font-size: 1rem;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+      
+  .conv{
+      padding: 20px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+  }
+  
+  input[type=number] {
+        width: 200px;
+        padding: 6px;
+        border: 2px solid rgba(0, 0, 0, 0.514);
+        border-radius: 4px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+  }
+      
+select{
+  border: 2px solid rgba(0, 0, 0, 0.514);
+  padding: 2px;
+  
+}
+  #btn{
+        margin: 0 auto;
+        padding: 20px
+      }
+  
+  #btn button {
+        background: rgb(8, 191, 247);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        padding: 12px 50px;
+        
+  }
+  
+#btn button:hover {
+  background: rgba(97, 224, 207, 0.849);
+    
+  }
+  
+  #res h1{
+    color: rgb(75, 12, 247);
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  
+  #res {
+      text-align: center;
+      font-weight: bold;
+      font-size: 24px;
+      padding-top: 30px;
+  }
+  
+  #res span{
+    font-size: 20px;
+    font-style: bold;
+    margin-top: 30px;
+  }
+  
+  
